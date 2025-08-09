@@ -3,7 +3,9 @@
 
 int main()
 {
-    int numeroMultiplicando = 9;
+    int numeroMultiplicando;
+    printf("Digite o numero multiplicando da tabuada que deseja: ");
+    scanf("%d", &numeroMultiplicando);
 
     for(int multiplicador = 0; multiplicador <= 10; multiplicador++)
     {
